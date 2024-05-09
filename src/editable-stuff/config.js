@@ -8,7 +8,7 @@ const mainBody = {
   gradientColors: "#B4B4B8",
   firstName: "Deepa Shree",
   middleName: "",
-  lastName: "Chickballapur Venkatachalapathi",
+  lastName: "C V",
   message: " Passionate all things data!!",
   icons: [
     {
@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/deepa-cv.jpg"),
   imageSize: 375,
   message:"",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://drive.google.com/file/d/1NUDi2MbmQdC-3zwAHZn08XlmLO13dk-0/view?usp=drive_link",
 };
 
 // PROJECTS SECTION

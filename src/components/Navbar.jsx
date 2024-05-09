@@ -38,22 +38,31 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/"}>
-        {`${mainBody.firstName}`}
+      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#"}>
+       <h3> {'Deepa Shree Chickballapur Venkatachalapathi'} </h3>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar-nav mr-auto">
+        <Nav className="me-auto"></Nav>
+        <Nav>
           {/* {
             <NavLink className="nav-item lead">
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </NavLink>
           } */}
+          {about.show && (
+            <NavLink
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+             <b> About</b>
+            </NavLink>
+          )}
           {repos.show && (
             <NavLink
-              href={process.env.PUBLIC_URL + "/projects"}
+              href={process.env.PUBLIC_URL + "/#projects"}
             >
-              Projects
+              <b>Projects</b>
             </NavLink>
           )}
           <NavLink
@@ -62,16 +71,9 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+           <b> Resume</b>
           </NavLink>
-          {about.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/aboutme"}
-            >
-              About
-            </NavLink>
-          )}
+          
         </Nav>
       </Navbar.Collapse>
     </Navbar>
