@@ -6,25 +6,10 @@ const Footer = (props) => {
 
   return (
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
-      <Container>
+      {/* <Container>
         {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
-        <a
-          rel="noopener"
-          href="https://github.com/deepa-cv"
-          aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Deepa Shree C V
-          </span>
-        </a>{" "}
-        using <i className="fab fa-react" />
-        <p>
-          <small className="text-muted">
-            Project code is open source. Feel free to fork and make your own
-            version.
-          </small>
-        </p>
-      </Container>
+        Made with <i className="fas fa-heart" /> by <a href="https://github.com/deepa-cv/">Deepa</a>
+      </Container> */}
     </footer>
   );
 };

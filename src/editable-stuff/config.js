@@ -111,10 +111,9 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
-  message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "deepa-cv@gmail.com",
+  heading: "Let's Connect!",
+  message:"I'm open to collaborating to build amazing projects! Drop a mail at:",
+  email: "deepachalapathi17@gmail.com",
 };
 
 const experiences = {
@@ -139,4 +138,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch,experiences };
