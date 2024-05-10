@@ -73,7 +73,7 @@ const Project = ({ heading, username, length, specfic }) => {
     pushed_at: null,
   },
 ]);
-console.log(projectsArray.length)
+// console.log(projectsArray.length)
   // const fetchRepos = useCallback(async () => {
   //   let repoList = [];
   //   try {
@@ -104,10 +104,10 @@ console.log(projectsArray.length)
   //   fetchRepos();
   // }, [fetchRepos]);
 
-  console.log(projectsArray);
+  // console.log(projectsArray);
   return (
     <Jumbotron fluid id="projects" className="m-0" style={{
-      background: "#AEC3AE",
+      background: "#E4E4D0",
       // backgroundSize: "1200% 1200%",
     }}>
       <Container className="">

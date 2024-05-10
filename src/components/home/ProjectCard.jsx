@@ -75,24 +75,24 @@ const Language = ({ languages_url, repo_url }) => {
     array.push(index);
     total_count += data[index];
   }
-
-  console.log(data);
-  console.log(array);
+  // array = data;
+  // console.log(data);
+  // console.log(array);
   return (
     <div className="pb-3">
       Tech Stack:{" "}
-      {array.length
-        ? array.map((language) => (
-          <a
-            key={language}
-            className="card-link"
-            href = '#'
-            // href={repo_url + `/search?l=${language}`}
-            target=" _blank"
-            rel="noopener noreferrer"
-          >
+      {array.length 
+        ? data.map((language) => (//array.map((language) => (
+          // <a
+          //   key={language}
+          //   className="card-link"
+          //   href = '#'
+          //   // href={repo_url + `/search?l=${language}`}
+          //   target=" _blank"
+          //   rel="noopener noreferrer"
+          // >
             <span className="badge bg-light text-dark">
-              {language}:{" "}
+              {language}{" "}
               {/* {Math.trunc((data[language] / total_count) * 1000) / 10} % */}
             </span>
           // </a>
