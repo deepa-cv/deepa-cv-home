@@ -10,10 +10,10 @@ const MainBody = React.forwardRef(
         fluid
         id="home"
         style={{
-          background: `linear-gradient(136deg,${gradient})`,
+          background: gradient,
           backgroundSize: "1200% 1200%",
         }}
-        // className="title bg-transparent bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
+        // className="title  bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div id="stars"></div>
         <Container className="text-center">
@@ -39,7 +39,7 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
+            className="btn btn-outline-dark btn-lg"
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"

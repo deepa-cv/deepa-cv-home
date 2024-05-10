@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#B4B4B8",
+  gradientColors: "#94A684",
   firstName: "Deepa Shree",
   middleName: "",
-  lastName: "C V",
-  message: " Passionate all things data!!",
+  lastName: "Chickballapur Venkatachalapathi",
+  message: " Passionate about all things data!!",
   icons: [
     {
       image: "fa-github",
@@ -52,10 +52,11 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Selected Projects",
+  // gradientColors: "#AEC3AE",
   gitHubUsername: "deepa-cv", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["BFB-PES/Catalog-Indexing-Engine","deepa-cv/Prevent-Student-Attriton","Pravena725/Kinship-Recognition","deepa-cv/Visualising-Coral-Reef-Degradation","deepa-cv/Crime-Classification-on-streaming-data","Machine-Learning-Tech-Track/IFeelU"],
 };
 
 // Leadership SECTION
@@ -84,7 +85,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },

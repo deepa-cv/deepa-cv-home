@@ -26,11 +26,11 @@ const ProjectCard = ({ value }) => {
           ) : (
             <Skeleton count={3} />
           )}
-          {value ? (
+          {/* {value ? (
             <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
             <Skeleton />
-          )}
+          )} */}
         </Card.Body>
       </Card>
     </Col>
@@ -54,20 +54,20 @@ const CardButtons = ({ svn_url }) => {
 };
 
 const Language = ({ languages_url, repo_url }) => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(languages_url);
 
-  const handleRequest = useCallback(async () => {
-    try {
-      const response = await axios.get(languages_url);
-      return setData(response.data);
-    } catch (error) {
-      console.error(error.message);
-    }
-  }, [languages_url]);
+  // const handleRequest = useCallback(async () => {
+  //   try {
+  //     const response = await axios.get(languages_url);
+  //     return setData(response.data);
+  //   } catch (error) {
+  //     console.error(error.message);
+  //   }
+  // }, [languages_url]);
 
-  useEffect(() => {
-    handleRequest();
-  }, [handleRequest]);
+  // useEffect(() => {
+  //   handleRequest();
+  // }, [handleRequest]);
 
   const array = [];
   let total_count = 0;
@@ -76,23 +76,26 @@ const Language = ({ languages_url, repo_url }) => {
     total_count += data[index];
   }
 
+  console.log(data);
+  console.log(array);
   return (
     <div className="pb-3">
-      Languages:{" "}
+      Tech Stack:{" "}
       {array.length
         ? array.map((language) => (
           <a
             key={language}
             className="card-link"
-            href={repo_url + `/search?l=${language}`}
+            href = '#'
+            // href={repo_url + `/search?l=${language}`}
             target=" _blank"
             rel="noopener noreferrer"
           >
             <span className="badge bg-light text-dark">
               {language}:{" "}
-              {Math.trunc((data[language] / total_count) * 1000) / 10} %
+              {/* {Math.trunc((data[language] / total_count) * 1000) / 10} % */}
             </span>
-          </a>
+          // </a>
 
         ))
         : "code yet to be deployed."}
@@ -132,7 +135,7 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
         className="text-dark text-decoration-none"
       >
         <span className="text-dark card-link mr-4">
-          <i className="fab fa-github" /> Stars{" "}
+          <i className="fab fa-github" /> {" "}
           <span className="badge badge-dark">{star_count}</span>
         </span>
       </a>
