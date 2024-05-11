@@ -18,8 +18,13 @@ const MainBody = React.forwardRef(
         <div id="stars"></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
-            {title}
+            {title} 
           </h1>
+          <Typist>
+            <div className="lead typist">
+              <h4> {"  "} </h4>
+            </div>
+          </Typist>
           <Typist>
             <div className="lead typist">
               <h4> {message} </h4>
