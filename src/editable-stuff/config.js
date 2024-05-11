@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Deepa Shree",
   middleName: "",
   lastName: "Chickballapur Venkatachalapathi",
-  message: "An avid learner delving deeper into the 'data' realm!",
+  message: "An avid learner delving deeper into the data realm!",
   icons: [
     {
       image: "fa-github",
@@ -19,6 +19,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/deepa-cv/",
     },
+    // {
+    //   image: "fa-envelope",
+    //   url: "mailto:deepachalapathi17@gmail.com",
+    // },
   ],
 };
 

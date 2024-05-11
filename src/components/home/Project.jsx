@@ -67,7 +67,7 @@ const Project = ({ heading, username, length, specfic }) => {
   {
     name: "Visualising Coral Reef Degradation",
     description:"Descriptive analysis of how coral reefs have degraded from 1998 to 2017 using the Coral Reef Temperature Anomaly Database (CoRTAD)" ,
-    svn_url: "https://github.com/BFB-PES/Catalog-Indexing-Engine",
+    svn_url: "https://github.com/deepa-cv/Visualising-Coral-Reef-Degradation",
     stargazers_count: null,
     languages_url:['Tableau'],
     pushed_at: null,

@@ -32,20 +32,29 @@ const MainBody = React.forwardRef(
                 target="_blank"
                 rel="noopener noreferrer"
                 href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
+                // aria-label={`My ${icon.image.split("-")[1]}`}
               >
                 <i className={`fab ${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
+            <a
+                key={`social-icon-3`}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"mailto:deepachalapathi17@gmail.com"}
+                // aria-label={`My ${icon.image.split("-")[1]}`}
+              >
+                <i className={`fa fa-envelope  fa-3x socialicons`} />
+              </a>
           </div>
-          <a
+          {/* <a
             className="btn btn-outline-dark btn-lg"
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"
           >
             More about me
-          </a>
+          </a> */}
         </Container>
       </Jumbotron>
     );
