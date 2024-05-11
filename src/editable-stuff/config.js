@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Deepa Shree",
   middleName: "",
   lastName: "Chickballapur Venkatachalapathi",
-  message: " Passionate about all things data!!",
+  message: "An avid learner delving deeper into the 'data' realm!",
   icons: [
     {
       image: "fa-github",
