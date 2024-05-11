@@ -22,7 +22,7 @@ const MainBody = React.forwardRef(
           </h1>
           <Typist>
             <div className="lead typist">
-              {message}
+              <h4> {message} </h4>
             </div>
           </Typist>
           <div className="p-5">
