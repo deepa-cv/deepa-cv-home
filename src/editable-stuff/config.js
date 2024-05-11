@@ -45,7 +45,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/deepa-cv.jpg"),
   imageSize: 375,
-  message:"",
+  message:"Ever since I first got introduced to data science during undergrad, the ever growing domain with multiple opportunities has fueled my interests to pursue the field. I'm mostly interested in efficient feature engineering and optimizing machine learning pipelines.",
   resume: "https://drive.google.com/file/d/1NUDi2MbmQdC-3zwAHZn08XlmLO13dk-0/view?usp=drive_link",
 };
 
