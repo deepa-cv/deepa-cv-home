@@ -34,7 +34,7 @@ const Project = ({ heading, username, length, specfic }) => {
   },
   {
     name: "Student Attrition Prevention",
-    description:"Identify at risk in online courses by predicting their future assessment marks based on current performance. Used ensemble techniques to achieve the same." ,
+    description:"Identify at risk students in online courses by predicting their future assessment marks based on current performance. Used ensemble techniques to achieve the same." ,
     svn_url: "https://github.com/deepa-cv/Prevent-Student-Attriton",
     stargazers_count: null,
     languages_url: ["Python", "sklearn", "pandas", "numpy"],
@@ -58,14 +58,14 @@ const Project = ({ heading, username, length, specfic }) => {
   },
   {
     name: "MoodBoost",
-    description:"As a Hackalytics,a GIT hackathon, we built a streamlit application to help individuals improve their mental health during the Covid-19 crisis." ,
+    description:"As a part of Hackalytics,a GIT hackathon, we built a streamlit application to help individuals improve their mental health during the Covid-19 crisis." ,
     svn_url: "https://github.com/ELITA04/Hacklytics-Streamlit",
     stargazers_count: null,
     languages_url:["Python", "Tensorflow","Plotly", "Streamlit"],
     pushed_at: null,
   },
   {
-    name: "Visualising-Coral-Reef-Degradation",
+    name: "Visualising Coral Reef Degradation",
     description:"Descriptive analysis of how coral reefs have degraded from 1998 to 2017 using the Coral Reef Temperature Anomaly Database (CoRTAD)" ,
     svn_url: "https://github.com/BFB-PES/Catalog-Indexing-Engine",
     stargazers_count: null,
